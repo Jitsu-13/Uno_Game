@@ -98,35 +98,35 @@ public class Human extends Player {
         lastPlayedCard.changeColor(color);
     }
 
-//    @Override
-//    public Card makeMove(PlayingDeck playingDeck, DiscardDeck discardDeck) {
-//        Card playedCard = null;
-//        String move = "";
-//        do {
-//            move = kb.nextLine();
-//
-//            playedCard = this.pickCard(playingDeck, move);
-//            if (playedCard == null) {
-//                System.out.println("You don't have that card");
-//            } else if (!canPlayCard(discardDeck, playedCard)) {
-//                System.out.println("You can't play that card");
-//            } else {
-//                movingTime();
-//                // If User plays a card that can change color
-//                if (discardDeck.getTopOfDeck().getValue() > 12) {
-//                    changeSpecialCardColor(discardDeck);
-//                }
-//                break; // end loop and return playedCard now
-//            }
-//
-//            // otherwise print a try again prompt
-//            if (!move.equals("draw"))
-//                System.out.print("Play a different Card: ");
-//            else // or return nothing which means the user had no playable cards
-//                return null;
-//        } while (!move.equals("draw"));
-//        return playedCard;
-//    }
+    @Override
+    public Card makeMove(PlayingDeck playingDeck, DiscardDeck discardDeck) {
+        Card playedCard = null;
+        String move = "";
+        do {
+            move = kb.nextLine();
+
+            playedCard = this.pickCard(playingDeck, move);
+            if (playedCard == null) {
+                System.out.println("You don't have that card");
+            } else if (!canPlayCard(discardDeck, playedCard)) {
+                System.out.println("You can't play that card");
+            } else {
+                movingTime();
+                // If User plays a card that can change color
+                if (discardDeck.getTopOfDeck().getValue() > 12) {
+                    changeSpecialCardColor(discardDeck);
+                }
+                break; // end loop and return playedCard now
+            }
+
+            // otherwise print a try again prompt
+            if (!move.equals("draw"))
+                System.out.print("Play a different Card: ");
+            else // or return nothing which means the user had no playable cards
+                return null;
+        } while (!move.equals("draw"));
+        return playedCard;
+    }
 
     @Override
     public boolean isHuman() {
