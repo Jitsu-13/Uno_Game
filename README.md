@@ -1,7 +1,11 @@
 # Uno_Game
 It is game running through the terminal, and the user plays the game by intereacting with prompts from the terminal
 
-## Game Video
+## Application Running Video
+
+
+https://github.com/Jitsu-13/Uno_Game/assets/107523890/a1b01f87-f696-4c89-a26e-aa9c8ee1f159
+
 
 ## Symbols Guide
 
