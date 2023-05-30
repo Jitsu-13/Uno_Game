@@ -2,7 +2,9 @@
 This program is a recreation of vanilla uno using Java Object Orienented Programming. It is run through the terminal, and the user plays the game by intereacting with prompts from the terminal
 
 ## Symbols Guide
+
 ###The Cards
+
 In Uno there are 5 different types of card colors
 <ul>
 <li>red</li>
@@ -37,3 +39,12 @@ These are represented as:
 ## Note: 
 After changing the color of one of these types of cards the s would be changed to the letter of the new color The game represents face down cards as u, these are meant to simulate how the back of uno cards have say uno on the back
 
+## Running the Game
+
+Clone the reprository https://github.com/Jitsu-13/Uno_Game
+
+Open the IntelliJ go to the Game.java file and run the main method.
+
+## Credit
+To understand the game i use this <a href="https://www.ultraboardgames.com/uno/game-rules.php">site</a> for reference. <br>
+I got the font from this <a href="https://fontmeme.com/uno-card-game-font/">site</a>.
