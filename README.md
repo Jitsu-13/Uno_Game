@@ -4,7 +4,7 @@ It is game running through the terminal, and the user plays the game by intereac
 ## Application Running Video
 
 
-https://github.com/Jitsu-13/Uno_Game/assets/107523890/a1b01f87-f696-4c89-a26e-aa9c8ee1f159
+https://github.com/Jitsu-13/Uno_Game/assets/107523890/647f896a-fddd-44ed-a837-2e505c7ec365
 
 
 ## Symbols Guide
