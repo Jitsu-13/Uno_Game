@@ -32,16 +32,16 @@ public class Human extends Player {
         return played;
     }
 
-//    private String drawFromPlayingDeck(PlayingDeck playingDeck, String move) {
-//        System.out.println("Drawing card from deck...");
-//        movingTime();
-//        Card drawn = playingDeck.drawCard();
-//        drawn.flipCard();
-//        addToHand(drawn);
-//        move = drawn.displayCard();
-//        System.out.print("You drew a " + drawn + " card, ");
-//        return move;
-//    }
+    private String drawFromPlayingDeck(PlayingDeck playingDeck, String move) {
+        System.out.println("Drawing card from deck...");
+        movingTime();
+        Card drawn = playingDeck.drawCard();
+        drawn.flipCard();
+        addToHand(drawn);
+        move = drawn.displayCard();
+        System.out.print("You drew a " + drawn + " card, ");
+        return move;
+    }
 
     private static void printHelpText() {
         System.out.println("""
