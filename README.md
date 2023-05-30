@@ -27,7 +27,7 @@ In Uno the cards are numbered 0-9 (inclusive) and in addition to that there are 
 These are represented as:
 <ul>
 <li>x for skip cards</li>
-<li> for reverse cards</li>
+<li><> for reverse cards</li>
 <li>+2 for draw two cards</li>
 <li>w for wild cards</li>
 <li>+4 for the draw four card In Uno each card as a color and a face value that is either a number or a special action Here are some examples our how an uno card would be represented in game:</li>
