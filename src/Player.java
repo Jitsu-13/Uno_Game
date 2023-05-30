@@ -44,15 +44,6 @@ public abstract class Player {
         return cardsInHand.size();
     }
 
-    /**
-     * Whether or not this card can be played on top of the discard deck
-     *
-     * @param discardDeck The deck of cards being used to store the cards
-     *                    being discarded during the game
-     * @param card        The card that the user plays to discard
-     * @return A boolean representing whether or not this card matches the
-     *         card on top of the discard deck
-     */
     public boolean canPlayCard(DiscardDeck discardDeck, Card card) {
         if (card.equals(discardDeck.getTopOfDeck())) {
             String pType;
@@ -70,14 +61,6 @@ public abstract class Player {
         }
     }
 
-    /**
-     * How the Player Object will choose their next playing card
-     *
-     * @param playingDeck The deck of cards being drawn from
-     * @param discardDeck The deck of cards being used to store the cards
-     *      being discarded during the game
-     * @return The card the Player is discarding from their hand
-     */
     public abstract Card makeMove(PlayingDeck playingDeck, DiscardDeck discardDeck);
 
     /**
