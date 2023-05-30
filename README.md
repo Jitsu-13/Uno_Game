@@ -3,7 +3,7 @@ This program is a recreation of vanilla uno using Java Object Orienented Program
 
 ## Symbols Guide
 
-###The Cards
+### The Cards
 
 In Uno there are 5 different types of card colors
 <ul>
