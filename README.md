@@ -1,5 +1,7 @@
 # Uno_Game
-This program is a recreation of vanilla uno using Java Object Orienented Programming. It is run through the terminal, and the user plays the game by intereacting with prompts from the terminal
+It is game running through the terminal, and the user plays the game by intereacting with prompts from the terminal
+
+## Game Video
 
 ## Symbols Guide
 
