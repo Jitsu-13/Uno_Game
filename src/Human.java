@@ -74,29 +74,29 @@ public class Human extends Player {
     }
 
 
-//    private void changeSpecialCardColor(DiscardDeck discardDeck) {
-//        System.out.println("What color would you like change it too");
-//        System.out.println("(r)ed, (b)lue, (g)reen, (y)ellow");
-//        String color = kb.nextLine();
-//        Card lastPlayedCard = discardDeck.getTopOfDeck();
-//        movingTime();
-//        System.out.print("Changing the color to ");
-//        switch (color.charAt(0)) {
-//            case 'r':
-//                System.out.println("\033[31;1mred\033[0m");
-//                break;
-//            case 'b':
-//                System.out.println("\033[34;1mblue\033[0m");
-//                break;
-//            case 'g':
-//                System.out.println("\033[32;1mgreen\033[0m");
-//                break;
-//            case 'y':
-//                System.out.println("\033[33;1myellow\033[0m");
-//                break;
-//        }
-//        lastPlayedCard.changeColor(color);
-//    }
+    private void changeSpecialCardColor(DiscardDeck discardDeck) {
+        System.out.println("What color would you like change it too");
+        System.out.println("(r)ed, (b)lue, (g)reen, (y)ellow");
+        String color = kb.nextLine();
+        Card lastPlayedCard = discardDeck.getTopOfDeck();
+        movingTime();
+        System.out.print("Changing the color to ");
+        switch (color.charAt(0)) {
+            case 'r':
+                System.out.println("\033[31;1mred\033[0m");
+                break;
+            case 'b':
+                System.out.println("\033[34;1mblue\033[0m");
+                break;
+            case 'g':
+                System.out.println("\033[32;1mgreen\033[0m");
+                break;
+            case 'y':
+                System.out.println("\033[33;1myellow\033[0m");
+                break;
+        }
+        lastPlayedCard.changeColor(color);
+    }
 
 //    @Override
 //    public Card makeMove(PlayingDeck playingDeck, DiscardDeck discardDeck) {
