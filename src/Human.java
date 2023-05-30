@@ -47,12 +47,12 @@ public class Human extends Player {
         System.out.println("""
                 ------------------------------------------------------------------------
                 To play a card, type the card you would like to play.
-                For example, if you have the card 'b+2', when it is your turn to play,
+                For example, if you have the card 'b+2' stands for(blue 2), when it is your turn to play,
                 type 'b+2' to play the card.
 
                 If you do not have a playable card, type 'draw' to draw from the deck.
 
-                When it is your turn, type 'help' to see this message text again.
+                When it is your turn, type 'help' to see this message text again. 
                 -------------------------------------------------------------------------
                 """);
     }

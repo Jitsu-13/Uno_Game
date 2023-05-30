@@ -52,10 +52,6 @@ public class Card {
      * of a wild card, which has a value of 13, and a plus four card,
      * which has a value of 14
      *
-     * @param color is the first letter of the card's color
-     *      acceptable color values are 'r' for red,
-     *      'b' for blue, 'g' for green, 'y' for yellow, and
-     *      's' for wild cards
      */
     public void changeColor(char color) {
         if (value > 12) {
