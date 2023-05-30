@@ -43,7 +43,8 @@ After changing the color of one of these types of cards the s would be changed t
 
 Clone the reprository https://github.com/Jitsu-13/Uno_Game
 
-Open the IntelliJ go to the Game.java file and run the main method.
+Open the Uno_Game inIntelliJ go to the Game.java file and run the main method and the program will start
+running in the terminal.
 
 ## Credit
 To understand the game i use this <a href="https://www.ultraboardgames.com/uno/game-rules.php">site</a> for reference. <br>
