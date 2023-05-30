@@ -47,10 +47,17 @@ After changing the color of one of these types of cards the s would be changed t
 
 ## Running the Game
 
-Clone the reprository https://github.com/Jitsu-13/Uno_Game
+1. Clone or download the reprository https://github.com/Jitsu-13/Uno_Game to your local machine.
 
-Open the Uno_Game inIntelliJ go to the Game.java file and run the main method and the program will start
-running in the terminal.
+2. Open a command line or an IDE and navigate to the project directory.
+
+3. Compile the Java source files using the following command:
+
+4. Run the compiled program using the following command: javac -d bin src/*.java
+ 
+5. Or else in Ide got to Game.java file and run the main method.
+ 
+6. Follow the instructions displayed in the console to play the game.
 
 ## Credit
 To understand the game i use this <a href="https://www.ultraboardgames.com/uno/game-rules.php">site</a> for reference. <br>
